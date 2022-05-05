@@ -5,3 +5,7 @@
 ## maven-copy-files
 
 - [Copying Files With Maven](docs/copyfilewithmaven.md)
+
+## maven-custom-plugin
+
+- [How to Create a Maven Plugin](docs/createmavenplugin.md)
