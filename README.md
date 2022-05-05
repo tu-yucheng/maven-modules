@@ -33,3 +33,7 @@
 ## maven-printing-plugins
 
 - [How to Display a Message in Maven](docs/displaymessageinmaven.md)
+
+## maven-profiles
+
+- [Guide to Maven Profiles](docs/guicetomavenprofiles.md)
