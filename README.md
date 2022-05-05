@@ -21,3 +21,7 @@
 ## maven-multi-source
 
 - [Maven Project with Multiple Source Directories](docs/multiplesourcedirectory.md)
+
+## maven-parent-pom-resolution
+
+- [Understanding Maven’s “relativePath” Tag for a Parent POM](docs/relativepathtag.md)
