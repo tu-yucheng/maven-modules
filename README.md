@@ -25,3 +25,7 @@
 ## maven-parent-pom-resolution
 
 - [Understanding Maven’s “relativePath” Tag for a Parent POM](docs/relativepathtag.md)
+
+## maven-pom-types
+
+- [Difference Between Super, Simplest, and Effective POM](docs/supersimplesteffectivepom.md)
