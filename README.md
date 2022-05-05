@@ -29,3 +29,7 @@
 ## maven-pom-types
 
 - [Difference Between Super, Simplest, and Effective POM](docs/supersimplesteffectivepom.md)
+
+## maven-printing-plugins
+
+- [How to Display a Message in Maven](docs/displaymessageinmaven.md)
