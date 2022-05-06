@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <artifactId>maven-plugin-management</artifactId>
+  <version>1.0.0</version>
+  <packaging>pom</packaging>
+
+  <parent>
+    <artifactId>maven-modules</artifactId>
+    <groupId>cn.tuyucheng.taketoday</groupId>
+    <version>1.0.0</version>
+  </parent>
+
+  <modules>
+    <module>submodule-1</module>
+    <module>submodule-2</module>
+  </modules>
+
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>build-helper-maven-plugin</artifactId>
+          <version>${maven.bulid.helper.plugin}</version>
+          <executions>
+            <execution>
+              <id>add-resource</id>
+              <phase>generate-resources</phase>
+              <goals>
+                <goal>add-resource</goal>
+              </goals>
+              <configuration>
+                <resources>
+                  <resource>
+                    <directory>src/resources</directory>
+                    <targetPath>json</targetPath>
+                  </resource>
+                </resources>
+              </configuration>
+            </execution>
+          </executions>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>${maven.compiler.plugin}</version>
+          <configuration>
+            <source>17</source>
+            <target>17</target>
+          </configuration>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+
+  <properties>
+    <maven.compiler.plugin>3.8.1</maven.compiler.plugin>
+    <maven.bulid.helper.plugin>3.2.0</maven.bulid.helper.plugin>
+  </properties>
+</project>
