@@ -62,3 +62,7 @@
 ## maven-plugin-management
 
 - [Plugin Management in Maven](docs/pluginmanagementinmaven.md)
+
+## maven-version-collision
+
+- [How to Resolve a Version Collision of Artifacts in Maven](docs/resolveversioncollsion.md)
