@@ -74,3 +74,11 @@
 ## maven-version-plugin
 
 - [Use the Latest Version of a Dependency in Maven](docs/usinglatestversiondependency.md)
+
+## maven-compile-plugin-java-9
+
+- [Maven Compiler Plugin](docs/mavencompileplugin.md)
+
+## maven-host-repo-example
+
+- [Hosting a Maven Repository on GitHub](docs/hostmavenrepositoryongithub.md)
