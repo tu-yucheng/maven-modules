@@ -70,3 +70,7 @@
 ## maven-version-overriding-plugins
 
 - [Override Maven Plugin Configuration from Parent](docs/mavenversionoverrideplugins.md)
+
+## maven-version-plugin
+
+- [Use the Latest Version of a Dependency in Maven](docs/usinglatestversiondependency.md)
