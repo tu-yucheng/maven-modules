@@ -86,3 +86,10 @@
 ## maven-generate-war
 
 - [generate a WAR File in Maven](docs/generatewarfileinmaven.md)
+
+## maven-integration-test
+
+- [Quick Guide to the Maven Surefire Plugin](docs/guicemavensurefileplugin.md)
+- [The Maven Failsafe Plugin](docs/failsafeplugin.md)
+- [Difference Between Maven Surefire and Failsafe Plugins](docs/diffenentfiresureandfailsafe.md)
+- [Integration Testing with Maven](docs/integrationtestwithmaven.md)
