@@ -82,3 +82,7 @@
 ## maven-host-repo-example
 
 - [Hosting a Maven Repository on GitHub](docs/hostmavenrepositoryongithub.md)
+
+## maven-generate-war
+
+- [generate a WAR File in Maven](docs/generatewarfileinmaven.md)
