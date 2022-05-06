@@ -42,3 +42,15 @@
 
 - [Accessing Maven Properties in Java](docs/accessmavenpropertiesinjava.md)
 - [Default Values for Maven Properties](docs/defaultvalueformavenproperties.md)
+
+## maven-surefile-plugin
+
+- [Running a Single Test or Method With Maven](docs/mavensurefileplugin.md)
+
+## maven-unused-dependencies
+
+- [Find Unused Maven Dependencies](docs/findunuseddependency.md)
+
+## maven-war-plugin
+
+- [Eclipse Error: web.xml is missing and failOnMissingWebXml is set to true](docs/failonmissingwebxml.md)
