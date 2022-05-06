@@ -66,3 +66,7 @@
 ## maven-version-collision
 
 - [How to Resolve a Version Collision of Artifacts in Maven](docs/resolveversioncollsion.md)
+
+## maven-version-overriding-plugins
+
+- [Override Maven Plugin Configuration from Parent](docs/mavenversionoverrideplugins.md)
