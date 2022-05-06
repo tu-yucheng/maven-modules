@@ -53,4 +53,12 @@
 
 ## maven-war-plugin
 
-- [Eclipse Error: web.xml is missing and failOnMissingWebXml is set to true](docs/failonmissingwebxml.md)
+- [IDEA Error: web.xml is missing and failOnMissingWebXml is set to true](docs/failonmissingwebxml.md)
+
+## maven-optional-dependencies
+
+- [Optional Dependency in Maven](docs/optionaldependencyinmaven.md)
+
+## maven-plugin-management
+
+- [Plugin Management in Maven](docs/pluginmanagementinmaven.md)
