@@ -37,3 +37,8 @@
 ## maven-profiles
 
 - [Guide to Maven Profiles](docs/guicetomavenprofiles.md)
+
+## maven-properties
+
+- [Accessing Maven Properties in Java](docs/accessmavenpropertiesinjava.md)
+- [Default Values for Maven Properties](docs/defaultvalueformavenproperties.md)
